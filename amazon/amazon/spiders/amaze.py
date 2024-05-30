@@ -6,7 +6,7 @@ import re
 from glob import glob
 from scrapy.selector import Selector
 import csv
-
+from urllib.parse import urljoin
 csv_input=list()
 def browser_header(str):
         headers = dict()
@@ -63,7 +63,7 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 """
         headers=browser_header(header)
         #Starting to scrape amazon.in/Intel
-        urls=["https://www.amazon.in/s?k=Intel"]
+        urls = [f"https://amazon.in/s?k={self.keyword}/page{page}" for page in range(1, 31)]
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse, headers=headers, meta={'site_name':'amazon'})
 
@@ -118,6 +118,11 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
     def parse_thirdtier(self, response, name=None):
         name = response.meta.get('name')
          # List to store extracted review data dictionaries
+        next_page_url = response.css("li.a-last a::attr(href)").get()
+        if next_page_url:  # If it exists, follow the next page using absolute URL
+            current_url = response.url
+            absolute_next_page_url = urljoin(current_url, next_page_url)
+            yield scrapy.Request(url=absolute_next_page_url, callback=self.parse)
         review_elements = response.css("div.a-section.review.aok-relative")
         for review in review_elements:
             title = review.css("a.a-size-base.a-link-normal.review-title.a-color-base.review-title-content.a-text-bold[data-hooks='review-title']::text").get()
@@ -139,7 +144,6 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
                 "Username": username,
                 "Review": review_text,
             }
-            print("Review Data: ", review_data)
             csv_input.append(review_data)
     # Write extracted reviews to CSV file (assuming 'csv_input' is a global variable)
         with open("data.csv", 'a', encoding='utf-8', newline='') as csvfile:
