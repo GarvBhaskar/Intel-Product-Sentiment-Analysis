@@ -1,44 +1,40 @@
 # Intel-Product Sentiment Analysis
-<<<<<<< HEAD
-To run the files, first scrapy needs to be installed, with glob and Beautiful Soup
-cd amazon and run: scrapy crawl amaze
-data is stored in data.csv
- Put you headers in header in amaze.py in spiders folder to make it run properly
-=======
+
+## Overview
+This project focuses on sentiment analysis of Intel product reviews scraped from Amazon. The sentiment analysis aims to categorize reviews as positive or negative based on the sentiment expressed in the text. The project utilizes web scraping techniques to collect the reviews, natural language processing (NLP) techniques for sentiment analysis, and data visualization for insights.
+
 ### Project Members: Garv Bhaskar, Aviral Srivastava, Dinesh Kumar
 ### Institution: Vellore Institute of Technology, Chennai
 
-## Installation and Setup
+## Requirements
+To run the project, ensure you have the following dependencies installed:
+- Python 3.x
+- Scrapy
+- Beautiful Soup
+- Pandas
+- Matplotlib
 
-To run the files, you need to have `scrapy`, `glob`, and `BeautifulSoup` installed. Follow the steps below to set up and run the project.
+## Usage
+1. Clone the repository to your local machine.
+2. Install the required dependencies using `pip install -r requirements.txt`.
+3. Navigate to the `amazon` directory.
+4. Run the following command to start the web scraping process:
+   ```
+   scrapy crawl amaze
+   ```
+5. The scraped data will be stored in `data.csv`.
+6. Modify the `headers` variable in `amaze.py` located in the `spiders` folder if needed to ensure proper execution.
+7. Analyze the sentiment distribution and trends using the provided Jupyter notebooks or Python scripts.
 
-### Prerequisites
-
-Ensure you have Python installed. Then, install the required packages:
-
-```bash
-pip install scrapy beautifulsoup4
-```
-
-### Running the Scrapy Spider
-
-1. Navigate to the `amazon` directory:
-    ```bash
-    cd amazon
-    ```
-
-2. Run the Scrapy spider:
-    ```bash
-    scrapy crawl amaze
-    ```
-
-### Output
-
-The scraped data will be stored in `data.csv` located in the `amazon` directory.
+## File Structure
+- `amazon`: Contains the Scrapy spider for web scraping.
+  - `amazon/spiders/amaze.py`: Spider for scraping Amazon reviews.
+- `data.csv`: CSV file containing the scraped data.
+- `analysis.ipynb`: Jupyter notebook for data analysis and visualization.
+- `requirements.txt`: File listing the project dependencies.
 
 ## Notes
 
 - Verify your internet connection as Scrapy needs to access the web for scraping.
 
 For further customization or troubleshooting, refer to the Scrapy and BeautifulSoup documentation.
->>>>>>> 33638e7d86d58309b90200f7bad89c0b81532ef3
