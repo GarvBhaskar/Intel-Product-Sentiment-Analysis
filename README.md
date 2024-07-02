@@ -22,17 +22,22 @@ Our solution integrates TF-IDF vectorization with Logistic Regression for baseli
 Real-time reviews were collected from various e-commerce websites and social media platforms using web scraping tools like BeautifulSoup and Scrapy.
 
 ## Data Visualization
-<img src="image1.png" width="45%"> <img src="image2.png" width="45%">
+<img src="1.png" width="45%"> <img src="2.png" width="45%">
+<img src="3.png" width="60%"> 
 
 ## Data Preparation
 Focused on cleansing and tokenizing textual reviews, addressing punctuation and stop words, and converting reviews into numerical formats suitable for models like Bag of Words and Word2Vec.
+<img src="4.png" width="60%">
 
 ## Data Exploration
 Analyzed sentiment label distribution for balance, visualized brand-specific rating distributions, and examined statistical summaries of review lengths.
+<img src="5.png" width="45%"> <img src="6.png" width="45%">
+<img src="7.png" width="45%">
 
 ## Model Comparison
 - **Benchmark Model:** CountVectorizer with Multinomial Naive Bayes
 - **Other Models:** TfidfVectorizer with Logistic Regression, Pipeline and GridSearch
+<img src="8.png" width="45%">
 
 ## LSTM with Word2Vec Embedding
 1. Load pretrained word embedding model.
@@ -41,10 +46,12 @@ Analyzed sentiment label distribution for balance, visualized brand-specific rat
 4. Compile and fit the model using log loss function and ADAM optimizer.
 
 ## Word Clouds
-<img src="image1.png" width="45%"> <img src="image2.png" width="45%">
+<img src="9.png" width="55%"> 
+<img src="10.png" width="55%">
 
 ## Summary Generation
 Generated summaries to capture key insights from the sentiment analysis results.
+<img src="11.png" width="45%">
 
 ## Key Takeaways for Intel Engineers
 
