@@ -34,7 +34,7 @@ Focused on cleansing and tokenizing textual reviews, addressing punctuation and 
 Analyzed sentiment label distribution for balance, visualized brand-specific rating distributions, and examined statistical summaries of review lengths.
 
 <img src="images/5.png" width="70%"> 
-<p align="center">
+<p align="left">
   <img src="images/6.png" width="40%" />
   <img src="images/7.png" width="40%" />
 </p>
