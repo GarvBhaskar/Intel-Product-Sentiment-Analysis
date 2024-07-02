@@ -12,7 +12,7 @@ Our primary objective was to build a web scraper to fetch Amazon product reviews
 - **Faculty Mentor:** Dr. Harini Sriraman
 
 ## Access the Python Notebook here
-- **Python Script:** [model.py](#)
+- **Python Script:** [model.py](https://github.com/GarvBhaskar/Intel-Product-Sentiment-Analysis/blob/main/model.ipynb)
 
 ## Proposed Solution
 
