@@ -22,7 +22,7 @@ Our solution integrates TF-IDF vectorization with Logistic Regression for baseli
 Real-time reviews were collected from various e-commerce websites and social media platforms using web scraping tools like BeautifulSoup and Scrapy.
 
 ## Data Visualization
-<img src="images/1.png" width="50%"> <img src="images/2.png" width="50%">
+<img src="images/1.png" width="45%"> <img src="images/2.png" width="50%">
 <img src="images/3.png" width="70%"> 
 
 ## Data Preparation
