@@ -7,49 +7,12 @@ Our primary objective was to build a web scraper to fetch Amazon product reviews
 ## Team Details
 
 - **Team Name:** Fractals
-- **Members:** Aviral, Srivastava, Garv Bhaskar, Dinesh Kumar
+- **Members:** Aviral Srivastava, Garv Bhaskar, Dinesh Kumar
 - **Institution:** Vellore Institute of Technology, Chennai
 - **Faculty Mentor:** Dr. Harini Sriraman
 
-## Project Workflow
-
-### Web Scraper Development
-Developed a web scraper using Scrapy to extract product reviews from Amazon. The extracted review data is saved in a file named `data.csv` for further analysis.
-- **GitHub Repo:** [Intel-Product-Sentiment-Analysis](#)
-- **Model Script:** [model.py](#)
-
-### Data Exploration and Preparation
-
-#### Data Exploration
-- Load data, plot distributions, generate word clouds, visualize common words.
-
-#### Data Cleaning
-- Remove HTML tags, punctuation, and stopwords; perform stemming and lemmatization.
-
-### Feature Extraction
-- **Bag of Words (BoW):** Transform text data into BoW and TF-IDF vectors.
-- **Word2Vec:** Train Word2Vec models to create word embeddings.
-
-### Model Building
-
-#### Supervised Learning Models
-- Naive Bayes (BernoulliNB, MultinomialNB)
-- Logistic Regression
-- Random Forest
-
-#### Deep Learning Models
-- LSTM (Long Short-Term Memory)
-- Other RNNs (SimpleRNN, GRU)
-- CNNs (Convolutional Neural Networks)
-
-#### Embedding Layers
-Utilize embedding layers in neural network models.
-
-### Model Evaluation
-Compare models and select the best-performing one.
-
-### Visualization
-Generate visual representations to illustrate key findings.
+## Access the Python Notebook here
+- **Python Script:** [model.py](#)
 
 ## Proposed Solution
 
