@@ -2,7 +2,7 @@
 
 ## Overview
 
-Our primary objective was to build a web scraper to fetch Amazon product reviews for Intel products. The overall project involves scraping live review data, pre-processing and exploring this data, and applying various machine learning techniques to perform sentiment analysis and get insights on the performance of Intel processors.
+Our primary objective was to build a web scraper to fetch Amazon product reviews for Intel processors. The overall project involves scraping live review data, pre-processing and exploring this data, and applying various machine learning techniques to perform sentiment analysis and get insights on the performance of Intel processors.
 
 ## Team Details
 
@@ -22,7 +22,7 @@ Our solution integrates TF-IDF vectorization with Logistic Regression for baseli
 Real-time reviews were collected from various e-commerce websites and social media platforms using web scraping tools like BeautifulSoup and Scrapy.
 
 ## Data Visualization
-Plot the sentiment trends over time.
+<img src="image1.png" width="45%"> <img src="image2.png" width="45%">
 
 ## Data Preparation
 Focused on cleansing and tokenizing textual reviews, addressing punctuation and stop words, and converting reviews into numerical formats suitable for models like Bag of Words and Word2Vec.
@@ -46,5 +46,40 @@ Analyzed sentiment label distribution for balance, visualized brand-specific rat
 ## Summary Generation
 Generated summaries to capture key insights from the sentiment analysis results.
 
-## Images
-<img src="image3.png" width="45%"> <img src="image4.png" width="45%">
+## Key Takeaways for Intel Engineers
+
+### Positive Aspects:
+
+1. **Performance and Efficiency:**
+   - Intel processors are praised for their excellent performance in gaming, video editing, and other demanding applications.
+   - The energy efficiency of Intel processors is particularly appreciated, especially during times of energy crisis.
+
+2. **Customer Satisfaction:**
+   - Users report high satisfaction with the smooth running and fast performance of Intel processors.
+   - Many customers highlight the processors as the best choice for gaming and creative professionals.
+
+3. **Features and Compatibility:**
+   - Intel processors are valued for their compatibility with various motherboards and components.
+   - Features like multiple cores and high GHz ratings are highly regarded.
+
+4. **Customer Experience:**
+   - Positive reviews often mention the enjoyable process of upgrading to Intel processors and the efficient performance once installed.
+
+### Negative Aspects:
+
+1. **Delivery and Packaging Issues:**
+   - Some customers experienced poor packaging, with processors rattling around loose inside the box or inadequately protected by bubble wrap.
+   - Instances of receiving used or B-stock products instead of new items have been reported.
+
+2. **Quality Control:**
+   - There are complaints about receiving defective or dysfunctional processors.
+   - Customers have faced issues with processors not performing as expected, requiring multiple adjustments to settings.
+
+3. **Performance Concerns:**
+   - Overheating and the need to replace the stock heatsink fan with more efficient air coolers have been mentioned.
+
+4. **Cost vs. Performance:**
+   - Some customers feel the high price of Intel processors does not always match the performance gain, leading to buyer’s remorse.
+
+---
+
