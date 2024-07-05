@@ -11,7 +11,7 @@ This project scrapes Amazon reviews for Intel processors, pre-processes the data
 - **Faculty Mentor:** Dr. Harini Sriraman
 
 ### Instructions to Run
-1. Go to the Python Notebook[(Script.ipynb)]()
+1. Go to the Python Notebook (notebook.ipynb)(https://github.com/GarvBhaskar/Intel-Product-Sentiment-Analysis/blob/main/notebook.ipynb)
 2. Inside your terminal, run the following command to install all required packages:
 ```bash
 pip install scrapy pandas numpy ipykernel tensorflow keras langdetect logging scikit-learn nltk re beautifulsoup4 matplotlib seaborn collections
@@ -96,6 +96,29 @@ Generated summaries to capture key insights from the sentiment analysis results.
 
 4. **Cost vs. Performance:**
    - Some customers feel the high price of Intel processors does not always match the performance gain, leading to buyer’s remorse.
+
+## Analysis of LSTMs and Transformer Performance
+
+### LSTMs:
+
+**Strengths:**
+- Well-suited for tasks where order and past information are critical (e.g., sentiment analysis).
+- Relatively easy to implement and interpret.
+
+**Weaknesses:**
+- Can struggle with very long sequences due to the vanishing gradient problem.
+- May not efficiently capture relationships between distant elements.
+
+### Transformers:
+
+**Strengths:**
+- Excel at handling long sequences due to parallel processing and attention mechanism.
+- Effective in learning relationships between distant elements.
+
+**Weaknesses:**
+- More computationally expensive to train compared to LSTMs.
+- Interpretability can be challenging due to the "black box" nature of attention mechanisms.
+
 
 ---
 
