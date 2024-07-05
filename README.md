@@ -11,11 +11,12 @@ This project scrapes Amazon reviews for Intel processors, pre-processes the data
 - **Faculty Mentor:** Dr. Harini Sriraman
 
 ### Instructions to Run
-1. Go to the Python Notebook (notebook.ipynb)(https://github.com/GarvBhaskar/Intel-Product-Sentiment-Analysis/blob/main/notebook.ipynb)
+1. Go to the Python Notebook [notebook.ipynb](https://github.com/GarvBhaskar/Intel-Product-Sentiment-Analysis/blob/main/notebook.ipynb)
 2. Inside your terminal, run the following command to install all required packages:
 ```bash
 pip install scrapy pandas numpy ipykernel tensorflow keras langdetect logging scikit-learn nltk re beautifulsoup4 matplotlib seaborn collections
 ```
+3. Use "Run all cells" command in notebook. 
 
 ## Proposed Solution
 
