@@ -10,8 +10,12 @@ This project scrapes Amazon reviews for Intel processors, pre-processes the data
 - **Institution:** Vellore Institute of Technology, Chennai
 - **Faculty Mentor:** Dr. Harini Sriraman
 
-## Access the Python Notebook here
-- **Python Script:** [script.py]()
+### Instructions to Run
+1. Go to the Python Notebook[(Script.ipynb)]()
+2. Inside your terminal, run the following command to install all required packages:
+```bash
+pip install scrapy pandas numpy ipykernel tensorflow keras langdetect logging scikit-learn nltk re beautifulsoup4 matplotlib seaborn collections
+```
 
 ## Proposed Solution
 
