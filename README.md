@@ -11,7 +11,7 @@ This project scrapes Amazon reviews for Intel processors, pre-processes the data
 - **Faculty Mentor:** Dr. Harini Sriraman
 
 ## Access the Python Notebook here
-- **Python Script:** [model.py](https://github.com/GarvBhaskar/Intel-Product-Sentiment-Analysis/blob/main/model.ipynb)
+- **Python Script:** [script.py]()
 
 ## Proposed Solution
 
