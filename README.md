@@ -1,5 +1,5 @@
 # Intel Products Sentiment Analysis Project
-
+### PS-11 Intel Products Sentiment Analysis from Online Reviews
 ## Overview
 
 Our primary objective was to build a web scraper to fetch Amazon product reviews for Intel processors. The overall project involves scraping live review data, pre-processing and exploring this data, and applying various machine learning techniques to perform sentiment analysis and get insights on the performance of Intel processors.
