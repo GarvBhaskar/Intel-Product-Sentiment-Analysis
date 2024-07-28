@@ -6,8 +6,9 @@ This project scrapes Amazon reviews for Intel processors, pre-processes the data
 ## Team Details
 
 - **Team Name:** Fractals
-- **Members:** Aviral Srivastava, Garv Bhaskar
+- **Members:** Aviral Srivastava, Garv Bhaskar, Dinesh Kumar
 - **Institution:** Vellore Institute of Technology, Chennai
+- **Faculty Mentor:** Prof. Harini Sriraman
 
 ### Instructions to Run
 1. Go to the Python Notebook [notebook.ipynb](https://github.com/GarvBhaskar/Intel-Product-Sentiment-Analysis/blob/main/notebook.ipynb)
